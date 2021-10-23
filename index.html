@@ -31,10 +31,10 @@
 
 
 
-    <h3> fluid container</h3>
+    <h3 class =  "container" >  fluid container</h3>
     <div> The fluid container goes till the end</div>
 
-    <h3> center container</h3>
+    <h3 class ="center-container"> center container</h3>
     <div>Center container goes till the specified width.</div>
 
     <h2>@links</h2>
@@ -46,14 +46,14 @@
     2.Block Elements => takes the whole row eg. <h3></h3>, <p></p>, <div> 
         -->
 
-    <a href = "/">Primary Link</a>
+    <a class ="Link primary-Link" href = "/">Primary Link</a>
     <hr> </hr>
 
     <h3> @List </h3>
-    <ul>
-        <li>unordered list one </li>
-        <li>unordered list two</li>
-        <li>unordered list three</li>
+    <ul class ="list-non-bullet" >
+        <li class ="list-item-inline">unordered list one </li>
+        <li class ="list-item-inline">unordered list two</li>
+        <li class ="list-item-inline">unordered list three</li>
     </ul>
     <br>
     <ol>
@@ -70,28 +70,34 @@
     <hr>
 
 <h3>@nav</h3>
-    <nav>
-        <ul>
-            <li>
-                <a href="">home</a>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <a href="">conact us</a>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <a href="">prjects</a>
-            </li>
-        </ul>
-    </nav>
+
+<nav class = "navigation container">
+    <div class = "nav-brand">IAmBrand</div>
+    <ul class = "list-non-bullet nav-pills">
+        <li class = "list-item-inline">
+            <a class = "link" href = "/">home</a>
+        </li>
+        <li class = "list-item-inline">
+            <a class = "link" href="/">Products</a>
+        </li>
+            
+        <li class = "list-item-inline">
+            <a class = "link" href = "/">About</a>
+        </li>  
+    </ul>
+</nav>
+
+
+
+
+
+    
 <hr>
 <h3>@header</h3>
-<header>
-    <img src="https://pbs.twimg.com/profile_images/737458706695094272/pp-AbNnb_400x400.jpg" alt="Om Pranav">
-    <img src="images/heroimage.svg" alt="Programmer">
+<header class ="hero">
+    
+    <img class ="hero-img" src="images/heroimage.svg" alt="Programmer">
+    <h1 class=  "hero-heading"> Om Pranav <span class = "heading-inverted" > Frontend Developer  </span> </h1>
 </header>
 <hr>
 <h2>@section</h2>

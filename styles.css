@@ -1,3 +1,68 @@
-h1 {
-    color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+body {
+    font-family: 'Roboto Condensed', sans-serif;
 }
+
+:root {
+    --primary-color :#C4B5FD ;
+}
+
+.container {
+    padding-left: 1 rem;
+    padding-right: 1 rem;
+}
+
+.center-container {
+    max-width: 600 px;
+    margin: auto;
+}
+
+.primary-Link {
+    color: var(--primary-color);
+    border-radius: 0.5 rem;
+    border : 1 px solid var (--primary-color) ;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display :inline;
+    padding: 0 rem 0.5 rem;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: rgb(89, 0, 255);
+    padding: 1 rem;
+    border-bottom-left-radius: 1rem;
+    border: rgba(139, 0, 0, 0.904);
+}
+
+
+.navigation .nav-pills{
+    text-align: right;
+    color:white;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    margin: auto;
+    display :block
+}
+
+.hero .hero-heading {
+    padding:1 rem  ;
+    color: var(--primary-color);
+}
+
+.hero .hero-heading .heading-inverted {
+    color :dimgray
+}
+
+.navigation .nav-brand {
+    color :white;
+    font-weight: bold;
+}
+
